@@ -28,6 +28,8 @@ class ParticleScene: SKScene {
         bokeh.name = "particleBokeh"
         self.addChild(bokeh)
         
+//        bokeh.particleRotationSpeed = 0.0
+        
     }
 
     required init?(coder aDecoder: NSCoder) {
