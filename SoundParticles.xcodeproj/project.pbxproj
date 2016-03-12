@@ -14,6 +14,10 @@
 		BF2D06D31C94AC0F00075CD3 /* BokehParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF2D06D11C94AC0F00075CD3 /* BokehParticle.sks */; };
 		BF2D06D41C94AC0F00075CD3 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2D06D21C94AC0F00075CD3 /* bokeh.png */; };
 		BF2D06DE1C94AE2D00075CD3 /* ParticleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D06DD1C94AE2D00075CD3 /* ParticleScene.swift */; };
+		BF2D06E01C94AFDD00075CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2D06DF1C94AFDD00075CD3 /* Main.storyboard */; };
+		BF2D06E21C94B03B00075CD3 /* ParticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D06E11C94B03B00075CD3 /* ParticleViewController.swift */; };
+		BF2D06E61C94B09400075CD3 /* ParticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D06E51C94B09400075CD3 /* ParticleViewModel.swift */; };
+		BF2D06E81C94B0A500075CD3 /* ParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D06E71C94B0A500075CD3 /* ParticleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		BF2D06D11C94AC0F00075CD3 /* BokehParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BokehParticle.sks; sourceTree = "<group>"; };
 		BF2D06D21C94AC0F00075CD3 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
 		BF2D06DD1C94AE2D00075CD3 /* ParticleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleScene.swift; sourceTree = "<group>"; };
+		BF2D06DF1C94AFDD00075CD3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BF2D06E11C94B03B00075CD3 /* ParticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleViewController.swift; sourceTree = "<group>"; };
+		BF2D06E51C94B09400075CD3 /* ParticleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleViewModel.swift; sourceTree = "<group>"; };
+		BF2D06E71C94B0A500075CD3 /* ParticleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleView.swift; sourceTree = "<group>"; };
 		C168CD9713613D7FF0626108 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +121,7 @@
 		BF2D06CD1C94AB5C00075CD3 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D06E11C94B03B00075CD3 /* ParticleViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -120,6 +129,7 @@
 		BF2D06CE1C94AB5C00075CD3 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D06E51C94B09400075CD3 /* ParticleViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -128,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				BF2D06DD1C94AE2D00075CD3 /* ParticleScene.swift */,
+				BF2D06E71C94B0A500075CD3 /* ParticleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 		BF2D06D01C94AB8C00075CD3 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D06DF1C94AFDD00075CD3 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -201,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2D06C41C94A6A900075CD3 /* LaunchScreen.storyboard in Resources */,
+				BF2D06E01C94AFDD00075CD3 /* Main.storyboard in Resources */,
 				BF2D06D41C94AC0F00075CD3 /* bokeh.png in Resources */,
 				BF2D06D31C94AC0F00075CD3 /* BokehParticle.sks in Resources */,
 				BF2D06C11C94A6A900075CD3 /* Assets.xcassets in Resources */,
@@ -264,6 +277,9 @@
 			files = (
 				BF2D06DE1C94AE2D00075CD3 /* ParticleScene.swift in Sources */,
 				BF2D06BA1C94A6A900075CD3 /* AppDelegate.swift in Sources */,
+				BF2D06E61C94B09400075CD3 /* ParticleViewModel.swift in Sources */,
+				BF2D06E81C94B0A500075CD3 /* ParticleView.swift in Sources */,
+				BF2D06E21C94B03B00075CD3 /* ParticleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
