@@ -1,0 +1,24 @@
+PODS:
+  - GPUImage (0.1.7)
+  - RxBlocking (2.2.0):
+    - RxSwift (~> 2.2)
+  - RxCocoa (2.2.0):
+    - RxSwift (~> 2.2)
+  - RxSwift (2.2.0)
+  - TheAmazingAudioEngine (1.5.5)
+
+DEPENDENCIES:
+  - GPUImage
+  - RxBlocking (~> 2.1)
+  - RxCocoa (~> 2.1)
+  - RxSwift (~> 2.1)
+  - TheAmazingAudioEngine
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  RxBlocking: 5bbc826774c4290effa8fe070841e9d45e864639
+  RxCocoa: 42efb7a7145a8d1d5878e94ce48a580d29e0c796
+  RxSwift: b8a749f2204c6c7a5c29b306a9c3bc11d5b87c5b
+  TheAmazingAudioEngine: d867edf0da7c4d1283df5d721f5633d5523126b2
+
+COCOAPODS: 0.39.0

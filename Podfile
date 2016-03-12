@@ -6,3 +6,5 @@ use_frameworks!
 pod 'RxSwift',    '~> 2.1'
 pod 'RxCocoa',    '~> 2.1'
 pod 'RxBlocking', '~> 2.1'
+pod 'TheAmazingAudioEngine'
+pod 'GPUImage'
