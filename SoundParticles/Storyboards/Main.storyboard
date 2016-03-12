@@ -6,15 +6,15 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Particle View Controller-->
         <scene sceneID="ExG-tq-caj">
             <objects>
-                <viewController id="8Yw-Oy-WNL" sceneMemberID="viewController">
+                <viewController id="8Yw-Oy-WNL" customClass="ParticleViewController" customModule="SoundParticles" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="H6h-Bo-Bpi"/>
                         <viewControllerLayoutGuide type="bottom" id="MU4-l9-Lmf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="iNu-gy-Jxu">
+                    <view key="view" contentMode="scaleToFill" id="iNu-gy-Jxu" customClass="ParticleView" customModule="SoundParticles" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -30,8 +30,14 @@
                             <constraint firstItem="MU4-l9-Lmf" firstAttribute="top" secondItem="e78-Fs-9Cp" secondAttribute="bottom" id="AuP-9v-SYg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="e78-Fs-9Cp" secondAttribute="trailing" constant="-20" id="XrV-9c-T9u"/>
                         </constraints>
+                        <connections>
+                            <outlet property="particleBackground" destination="e78-Fs-9Cp" id="zO7-Ay-La7"/>
+                        </connections>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="mainView" destination="iNu-gy-Jxu" id="2bA-Pq-KA9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lp9-wv-5vM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

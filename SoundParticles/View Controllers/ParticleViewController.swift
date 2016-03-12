@@ -9,6 +9,14 @@
 import UIKit
 
 class ParticleViewController: UIViewController {
+    
+    // MARK: - Properties (view and view model)
+    
+    @IBOutlet weak var mainView: ParticleView!
+    let viewModel = ParticleViewModel()
+    
+    
+    // MARK: - View Controller Overrides
 
     override func viewDidLoad() {
         super.viewDidLoad()
