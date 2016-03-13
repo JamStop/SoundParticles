@@ -1,5 +1,4 @@
 PODS:
-  - EZAudio/Core (1.1.5)
   - GPUImage (0.1.7)
   - RxBlocking (2.2.0):
     - RxSwift (~> 2.2)
@@ -9,7 +8,6 @@ PODS:
   - TheAmazingAudioEngine (1.5.5)
 
 DEPENDENCIES:
-  - EZAudio/Core (~> 1.1.4)
   - GPUImage
   - RxBlocking (~> 2.1)
   - RxCocoa (~> 2.1)
@@ -17,7 +15,6 @@ DEPENDENCIES:
   - TheAmazingAudioEngine
 
 SPEC CHECKSUMS:
-  EZAudio: 3b1cb4b6d7ebca68f0c2478576d75940aad4aa99
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   RxBlocking: 5bbc826774c4290effa8fe070841e9d45e864639
   RxCocoa: 42efb7a7145a8d1d5878e94ce48a580d29e0c796

@@ -84,7 +84,6 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods/EZAudio.framework"
   install_framework "Pods/GPUImage.framework"
   install_framework "Pods/RxBlocking.framework"
   install_framework "Pods/RxCocoa.framework"
@@ -92,7 +91,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/TheAmazingAudioEngine.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods/EZAudio.framework"
   install_framework "Pods/GPUImage.framework"
   install_framework "Pods/RxBlocking.framework"
   install_framework "Pods/RxCocoa.framework"

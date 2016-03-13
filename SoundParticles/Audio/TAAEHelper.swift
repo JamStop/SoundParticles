@@ -9,6 +9,7 @@
 import Foundation
 import TheAmazingAudioEngine
 import RxSwift
+import EZAudio
 
 /**
  * Helper class for TheAmazingAudioEngine
