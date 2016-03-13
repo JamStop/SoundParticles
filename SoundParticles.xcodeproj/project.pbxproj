@@ -18,6 +18,7 @@
 		BF2D06E21C94B03B00075CD3 /* ParticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D06E11C94B03B00075CD3 /* ParticleViewController.swift */; };
 		BF2D06E61C94B09400075CD3 /* ParticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D06E51C94B09400075CD3 /* ParticleViewModel.swift */; };
 		BF2D06E81C94B0A500075CD3 /* ParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D06E71C94B0A500075CD3 /* ParticleView.swift */; };
+		BF2D06EA1C94F76800075CD3 /* TAAEHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D06E91C94F76800075CD3 /* TAAEHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BF2D06E11C94B03B00075CD3 /* ParticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleViewController.swift; sourceTree = "<group>"; };
 		BF2D06E51C94B09400075CD3 /* ParticleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleViewModel.swift; sourceTree = "<group>"; };
 		BF2D06E71C94B0A500075CD3 /* ParticleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleView.swift; sourceTree = "<group>"; };
+		BF2D06E91C94F76800075CD3 /* TAAEHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAAEHelper.swift; sourceTree = "<group>"; };
 		C168CD9713613D7FF0626108 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 		BF2D06CB1C94AB5C00075CD3 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D06E91C94F76800075CD3 /* TAAEHelper.swift */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			files = (
 				BF2D06DE1C94AE2D00075CD3 /* ParticleScene.swift in Sources */,
 				BF2D06BA1C94A6A900075CD3 /* AppDelegate.swift in Sources */,
+				BF2D06EA1C94F76800075CD3 /* TAAEHelper.swift in Sources */,
 				BF2D06E61C94B09400075CD3 /* ParticleViewModel.swift in Sources */,
 				BF2D06E81C94B0A500075CD3 /* ParticleView.swift in Sources */,
 				BF2D06E21C94B03B00075CD3 /* ParticleViewController.swift in Sources */,

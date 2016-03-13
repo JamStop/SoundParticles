@@ -7,7 +7,19 @@
 //
 
 import Foundation
+import RxSwift
 
 class ParticleViewModel {
+    
+    /**
+     * Helpers + RxSwift
+    */
+    
+    let disposeBag = DisposeBag()
+    let helper = TAAEHelper()
+    
+    func test() {
+        helper.rx_getMicrophoneBassFrequencies()
+    }
     
 }

@@ -34,6 +34,7 @@
                             <outlet property="particleBackground" destination="e78-Fs-9Cp" id="zO7-Ay-La7"/>
                         </connections>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="mainView" destination="iNu-gy-Jxu" id="2bA-Pq-KA9"/>
