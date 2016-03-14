@@ -9,7 +9,6 @@
 import Foundation
 import TheAmazingAudioEngine
 import RxSwift
-import EZAudio
 
 /**
  * Helper class for TheAmazingAudioEngine
@@ -48,22 +47,21 @@ class TAAEHelper {
     
     func rx_getMicrophoneBassFrequencies() {
         let bassPlaythrough = AEPlaythroughChannel()
-//        let lowPassComponent = AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect, kAudioUnitSubType_LowPassFilter)
+
         let lowPass = AELowPassFilter()
         lowPass.cutoffFrequency = 500
-//        let lowPass = AEAudioUnitFilter(componentDescription: lowPassComponent)
-        
-        let bassReceiver = AEBlockAudioReceiver { (source, time, frames, audioBufferList) -> Void in
-            print(audioBufferList[1].mBuffers.mData)
-//            print(frames)
-        }
+
+//        bassPlaythrough.receiverCallback = AEBlockAudioReceiver { (source, time, frames, audioBufferList) -> Void in
+//            let sample = audioBufferList[0].mNumberBuffers
+//            
+//        }
         
         bassController.addInputReceiver(bassPlaythrough)
-//        bassController.addInputReceiver(bassReceiver)
+
         bassController.addChannels([bassPlaythrough])
         bassController.addOutputReceiver(bassPlaythrough)
-        bassController.addOutputReceiver(bassReceiver)
-//        bassController.addInputFilter(lowPass)
+//        bassController.addOutputReceiver(bassReceiver)
+
         bassController.addFilter(lowPass)
         
         
